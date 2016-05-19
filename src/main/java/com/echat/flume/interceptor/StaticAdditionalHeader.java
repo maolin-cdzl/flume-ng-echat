@@ -17,11 +17,6 @@ import org.slf4j.LoggerFactory;
 
 import static com.echat.flume.interceptor.StaticAdditionalHeader.Constants.*;
 
-/**
- * ...
- *
- * @author daan.debie
- */
 public class StaticAdditionalHeader implements Interceptor {
 
     private final String key;
